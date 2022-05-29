@@ -50,8 +50,8 @@
   padding: 0px;
 }
 
-.main__list__items,
-.main__tittle {
+.main__tittle,
+.main__list__items {
   list-style: none;
 }
 
@@ -104,7 +104,8 @@
 }
 
 /* New Task */
-#main__add .main__tittle {
+#main__add,
+.main__tittle {
   display: block;
   margin: 0 0 20px;
 }
@@ -118,7 +119,6 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
