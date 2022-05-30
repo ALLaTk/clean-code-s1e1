@@ -34,7 +34,8 @@
   margin: 0 auto 0;
 }
 
-.main__name-task, .main__input {
+.main__input,
+.main__name-task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -49,12 +50,14 @@
   padding: 0px;
 }
 
-.main__tittle, .main__list-items {
+.main__tittle,
+.main__list-items {
   list-style: none;
 }
 
-.main__checkbox,
-.main__button, .main__input {
+.main__input,
+.main__button,
+.main__checkbox {
   outline: none;
 }
 
